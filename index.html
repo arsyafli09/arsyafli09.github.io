@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Arsyafli</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Home</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Tentang Saya</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skill</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Pendidikan</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portofolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/profil.JPG" alt="">
+            </div>
+            <h1>ARSYAFLI</h1>
+            <h2>Mahasiswa - UI/UX Designer</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Tentang Saya</h2>
+            <p><span>Hai, Saya Ahmad Rofiqus Syafli.</span> Lahir di Pamekasan pada tanggal 09 mei 2002 berlokasi di Dusun genteng Timur RT 001/RW 004, Desa Barurambat Timur, Kec. Pademawu Kab. Pamekasan. Saya seorang Mahasiswa S1 program studi Sistem Informasi di Universitas Trunojoyo Madura.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Biodata</h3>
+                    <ul>
+                        <li>
+                            <strong>Tanggal Lahir</strong>
+                            09-05-2002
+                        </li>
+                        <li>
+                            <strong>No. Telepon</strong>
+                            081939010244
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            arsyafli0905@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            github.io/arsyafli/
+                        </li>
+                        <li>
+                            <strong>Alamat</strong>
+                            Dusun Genteng Timur, Pamekasan
+                        </li>
+                        <li>
+                            <strong>Status</strong>
+                            <span>Mahasiswa</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Hobi</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Game</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Musik</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Foto</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Download CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Canva</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Microsoft Office</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Figma</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java Script</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Kreativitas</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Komunikasi</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>76%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>98%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Riwayat Pendidikan</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <div class="item izq">
+                        <span class="casa">SDN BARTIM 2 PAMEKASAN</span>
+                        <span class="fecha">2008 - 2014</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <span class="casa">MAN 2 PAMEKASAN</span>
+                        <span class="fecha">2017 - 2020</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <div class="item der">
+                        <span class="casa">SMPN 5 PAMEKASAN</span>
+                        <span class="fecha">2014 - 2017</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <span class="casa">UNIVERSITAS TRUNOJOYO MADURA</span>
+                        <span class="fecha">2020 - SEKARANG</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/Project1.png" alt="">
+                    <div class="overlay">
+                        <h3>App Barca Store</h3>
+                        <p>UI/UX Figma</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Project2.png" alt="">
+                    <div class="overlay">
+                        <h3>App Shoe sales</h3>
+                        <p>UI/UX Figma</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Project3.png" alt="">
+                    <div class="overlay">
+                        <h3>App Order Food</h3>
+                        <p>UI/UX Figma</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/load.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Proses Bro</h3>
+                        <p>Santuyy</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/load.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Proses Bro</h3>
+                        <p>Santuyy</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/load.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Proses Bro</h3>
+                        <p>Santuyy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>KONTAK</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Nama Lengkap">
+                    <input type="text" placeholder="No. Telepon">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Pesan"></textarea>
+                    <button>
+                        Kirim Pesan <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/lokasi.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Barurambat Timur, Pademawu, Pamekasan
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                No. Telepon : 081939010244 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: arsyafli0905.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
